@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_page_block_1s",
+  "info": {
+    "displayName": "Block_1"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "BANCASA"
+    },
+    "promo": {
+      "type": "string",
+      "default": "FOR A LIMITED TIME"
+    }
+  },
+  "config": {}
+}

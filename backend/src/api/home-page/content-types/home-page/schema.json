@@ -1,0 +1,346 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "HomePage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header_logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "header_logo_2": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "header_logo_mobile": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "header_search": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "header_search_2": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "header_user": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "header_user_2": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "header_shop": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "header_shop_2": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "header_navbar_list": {
+      "type": "json"
+    },
+    "block_1_title": {
+      "type": "string"
+    },
+    "block_1_promo": {
+      "type": "string"
+    },
+    "block_1_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "block_1_text": {
+      "type": "string"
+    },
+    "block_1_text_2": {
+      "type": "string"
+    },
+    "block_2_title": {
+      "type": "string"
+    },
+    "block_2_subtitle": {
+      "type": "string"
+    },
+    "block_2_text": {
+      "type": "string"
+    },
+    "block_2_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "block_3_image_1": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "block_3_text_1": {
+      "type": "string"
+    },
+    "block_3_image_2": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "block_3_text_2": {
+      "type": "string"
+    },
+    "block_3_image_3": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "block_3_text_3": {
+      "type": "string"
+    },
+    "block_4_title": {
+      "type": "string"
+    },
+    "block_4_subtitle": {
+      "type": "string"
+    },
+    "block_4_text": {
+      "type": "string"
+    },
+    "block_4_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "block_5_title": {
+      "type": "string"
+    },
+    "block_5_subtitle": {
+      "type": "string"
+    },
+    "block_5_text": {
+      "type": "string"
+    },
+    "block_5_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "block_6_subtitle": {
+      "type": "string"
+    },
+    "block_6_title": {
+      "type": "string"
+    },
+    "block_6_text": {
+      "type": "string"
+    },
+    "block_6_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "block_7_title": {
+      "type": "string"
+    },
+    "block_7_subtitle": {
+      "type": "string"
+    },
+    "block_7_text": {
+      "type": "text"
+    },
+    "block_7_signature": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "block_7_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "block_7_author": {
+      "type": "string"
+    },
+    "block_8_subtitle": {
+      "type": "string"
+    },
+    "block_8_title": {
+      "type": "string"
+    },
+    "block_8_text": {
+      "type": "string"
+    },
+    "block_8_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "block_9_title": {
+      "type": "string"
+    },
+    "block_9_subtitle": {
+      "type": "string"
+    },
+    "block_9_text": {
+      "type": "string"
+    },
+    "block_9_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "footer_title": {
+      "type": "string"
+    },
+    "footer_subtitle": {
+      "type": "string"
+    },
+    "footer_placeholder": {
+      "type": "string"
+    },
+    "footer_navbar": {
+      "type": "json"
+    },
+    "footer_logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "footer_year": {
+      "type": "string"
+    },
+    "footer_feedback": {
+      "type": "string"
+    },
+    "catalog_text": {
+      "type": "string"
+    }
+  }
+}

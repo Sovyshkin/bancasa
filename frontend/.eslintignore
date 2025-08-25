@@ -1,0 +1,5 @@
+# Ignore generated or config files that may confuse the parser
+vue.config.js
+src/api/strapi.js
+
+
