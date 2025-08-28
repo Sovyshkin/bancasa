@@ -13,7 +13,7 @@ const info = computed(() => {
     <li class="img-item">
       <img
         v-if="info.block_3_image_1"
-        :src="`http://localhost:1337${info.block_3_image_1.url}`"
+        :src="`http://38.180.141.64${info.block_3_image_1.url}`"
         alt=""
       />
       <div class="hidden-text">{{ info.block_3_text_1 }}</div>
@@ -21,7 +21,7 @@ const info = computed(() => {
     <li class="img-item">
         <img
           v-if="info.block_3_image_1"
-          :src="`http://localhost:1337${info.block_3_image_2.url}`"
+          :src="`http://38.180.141.64${info.block_3_image_2.url}`"
           alt=""
         />
         <div class="hidden-text">{{ info.block_3_text_2 }}</div>
@@ -29,7 +29,7 @@ const info = computed(() => {
       <li class="img-item">
         <img
           v-if="info.block_3_image_1"
-          :src="`http://localhost:1337${info.block_3_image_3.url}`"
+          :src="`http://38.180.141.64${info.block_3_image_3.url}`"
           alt=""
         />
         <div class="hidden-text">{{ info.block_3_text_3 }}</div>

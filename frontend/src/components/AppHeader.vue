@@ -104,12 +104,12 @@ onMounted(async () => {
     <div class="logo" @click="goHome()">
       <img
         v-if="info.header_logo && isHomePage"
-        :src="`http://localhost:1337${info.header_logo.url}`"
+        :src="`http://38.180.141.64${info.header_logo.url}`"
         alt=""
       />
       <img
         v-if="info.header_logo_2 && !isHomePage"
-        :src="`http://localhost:1337${info.header_logo_2.url}`"
+        :src="`http://38.180.141.64${info.header_logo_2.url}`"
         alt=""
       />
     </div>
@@ -140,34 +140,34 @@ onMounted(async () => {
       </div>
       <img
         v-if="info.header_search && isHomePage"
-        :src="`http://localhost:1337${info.header_search.url}`"
+        :src="`http://38.180.141.64${info.header_search.url}`"
         alt="search"
         @click="toggleMobileMenu"
       />
       <img
         v-if="info.header_search_2 && !isHomePage"
-        :src="`http://localhost:1337${info.header_search_2.url}`"
+        :src="`http://38.180.141.64${info.header_search_2.url}`"
         alt="search"
         @click="toggleMobileMenu"
       />
       <img
         v-if="info.header_user && isHomePage"
-        :src="`http://localhost:1337${info.header_user.url}`"
+        :src="`http://38.180.141.64${info.header_user.url}`"
         alt="user"
       />
       <img
         v-if="info.header_user_2 && !isHomePage"
-        :src="`http://localhost:1337${info.header_user_2.url}`"
+        :src="`http://38.180.141.64${info.header_user_2.url}`"
         alt="user"
       />
       <img
         v-if="info.header_shop && isHomePage"
-        :src="`http://localhost:1337${info.header_shop.url}`"
+        :src="`http://38.180.141.64${info.header_shop.url}`"
         alt="shop"
       />
       <img
         v-if="info.header_shop_2 && !isHomePage"
-        :src="`http://localhost:1337${info.header_shop_2.url}`"
+        :src="`http://38.180.141.64${info.header_shop_2.url}`"
         alt="shop"
       />
     </div>
@@ -188,7 +188,7 @@ onMounted(async () => {
           <div class="logo" @click="goHome()">
             <img
               v-if="info.header_logo"
-              :src="`http://localhost:1337${info.header_logo_mobile.url}`"
+              :src="`http://38.180.141.64${info.header_logo_mobile.url}`"
               alt=""
             />
           </div>

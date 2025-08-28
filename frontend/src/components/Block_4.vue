@@ -19,7 +19,7 @@ const info = computed(() => {
       playsinline
     >
       <source
-        :src="`http://localhost:1337${info.block_4_image.url}`"
+        :src="`http://38.180.141.64${info.block_4_image.url}`"
         type="video/mp4"
       />
     </video>

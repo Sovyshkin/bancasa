@@ -14,7 +14,7 @@ const info = computed(() => {
       class="block-bg"
       v-if="info.block_5_image"
       :style="{
-        backgroundImage: `url(http://localhost:1337${info.block_5_image.url})`,
+        backgroundImage: `url(http://38.180.141.64${info.block_5_image.url})`,
       }"
     ></div>
     <div class="content">

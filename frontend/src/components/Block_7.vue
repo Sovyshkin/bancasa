@@ -11,13 +11,13 @@ const info = computed(() => {
 <template>
   <section class="wrap-content">
     <div class="wrap-img">
-        <img v-if="info.block_7_image" :src="`http://localhost:1337${info.block_7_image.url}`" alt="">
+        <img v-if="info.block_7_image" :src="`http://38.180.141.64${info.block_7_image.url}`" alt="">
     </div>
     <div class="content">
         <h1>{{ info.block_7_title }}</h1>
         <h2>{{ info.block_7_subtitle }}</h2>
         <p v-html="info.block_7_text"></p>
-        <img class="signature" v-if="info.block_7_signature" :src="`http://localhost:1337${info.block_7_signature.url}`" alt="">
+        <img class="signature" v-if="info.block_7_signature" :src="`http://38.180.141.64${info.block_7_signature.url}`" alt="">
         <p class="author" v-html="info.block_7_author"></p>
     </div>
   </section>

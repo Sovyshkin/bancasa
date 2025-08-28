@@ -1,7 +1,7 @@
 /* eslint-disable */
 import axios from "axios";
 
-const baseURL = process.env.VUE_APP_STRAPI_URL || "http://localhost:1337/api";
+const baseURL = process.env.VUE_APP_STRAPI_URL || "http://38.180.141.64/api";
 
 const strapi = axios.create({
   baseURL,

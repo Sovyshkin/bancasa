@@ -20,6 +20,7 @@ router.beforeEach((to, from, next) => {
 
 onMounted(async () => {
   await mainStore.getComponents();
+  
 });
 </script>
 <template>

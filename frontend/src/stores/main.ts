@@ -77,8 +77,10 @@ export const useMainStore = defineStore("main", () => {
 
   const getComponents = async () => {
     try {
+      console.log(axios.defaults.baseURL);
       const res = await axios.get("home-page?populate=*");
       components.value = res.data.data;
+      
       console.log(components.value);
     } catch (err) {
       console.log(err);

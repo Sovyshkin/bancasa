@@ -27,7 +27,7 @@ const info = computed(() => {
       </transition>
     </div>
     <div class="wrap-logo">
-        <img class="logo" v-if="info.footer_logo" :src="`http://localhost:1337${info.footer_logo.url}`" alt="">
+        <img class="logo" v-if="info.footer_logo" :src="`http://38.180.141.64${info.footer_logo.url}`" alt="">
         <span class="year">{{ info.footer_year }}</span>
     </div>
   </footer>

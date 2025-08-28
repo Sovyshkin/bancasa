@@ -185,7 +185,7 @@ onMounted(() => {
     <div class="wrap-img">
       <img
         v-if="mainStore.category.image"
-        :src="`http://localhost:1337${mainStore.category.image.url}`"
+        :src="`http://38.180.141.64${mainStore.category.image.url}`"
         alt=""
       />
     </div>
