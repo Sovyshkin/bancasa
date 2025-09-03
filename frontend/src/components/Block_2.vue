@@ -14,7 +14,7 @@ const info = computed(() => {
       class="block-bg"
       v-if="info.block_2_image"
       :style="{
-        backgroundImage: `url(http://38.180.141.64${info.block_2_image.url})`,
+        backgroundImage: `url(https://admin.ban.casa${info.block_2_image.url})`,
       }"
     ></div>
     <div class="content">

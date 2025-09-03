@@ -57,14 +57,14 @@ window.addEventListener('resize', () => {
     >
       <img
         v-if="card.image"
-        :src="`http://38.180.141.64${card.image.url}`"
+        :src="`https://admin.ban.casa${card.image.url}`"
         alt=""
         class="clickable-image"
       />
       <div class="colors" v-if="card.colors && mainStore.toggleCatalogActive">
         <img
           v-for="item in card.colors"
-          :src="`http://38.180.141.64${item.url}`"
+          :src="`https://admin.ban.casa${item.url}`"
           :key="item.id"
           alt=""
         />
@@ -80,7 +80,7 @@ window.addEventListener('resize', () => {
       <div class="modal-content">
         <button class="modal-close" @click="closeModal">×</button>
         <img
-          :src="`http://38.180.141.64${card.image.url}`"
+          :src="`https://admin.ban.casa${card.image.url}`"
           :alt="card.name"
           class="modal-image"
         />
@@ -135,7 +135,7 @@ window.addEventListener('resize', () => {
       <div class="colors" v-if="card.colors && !mainStore.toggleCatalogActive">
         <img
           v-for="item in card.colors"
-          :src="`http://38.180.141.64${item.url}`"
+          :src="`https://admin.ban.casa${item.url}`"
           :key="item.id"
           alt=""
         />
